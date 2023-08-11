@@ -6,7 +6,7 @@
 /**
  * main - my main function
  *
- * Return: 0 when successful
+ * Return: o when successfull
  */
 
 int main(void)
@@ -18,10 +18,10 @@ int main(void)
 		/* your code goes there */
 		if (n > 0)
 			printf("%d is positive", n);
-		else if (n == 0)
-			printf("%dThe number is zero", n);
+		else if (n ==0)
+			printf("%d is zero", n);
 		else
-			printf("%dThe number is negative", n);
+			printf("%d is negative", n);
 		printf("\n");
 		return (0);
 }
