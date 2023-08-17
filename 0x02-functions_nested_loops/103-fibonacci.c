@@ -11,7 +11,7 @@ int main(void)
 	int num1 = 1;
 	int num2 = 2;
 	int next;
-	int sum;
+	int sum = 2;
 
 	while (next <= limit)
 	{
