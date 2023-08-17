@@ -13,13 +13,13 @@ int main(void)
 	int i;
 
 	printf("%lu, ", num1);
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < 49; i++)
 	{
 		printf("%lu", num2);
 		next = num1 + num2;
 		num1 = num2;
 		num2 = next;
-		if (i != 49)
+		if (i != 48)
 			printf(", ");
 	}
 	printf("\n");
