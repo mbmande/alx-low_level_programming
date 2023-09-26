@@ -1,5 +1,10 @@
 #include "lists.h"
 
+/**
+ * free_listint - it frees memory
+ * @head: it stores the address of head
+ */
+
 void free_listint(listint_t *head)
 {
 	listint_t *tmp;
@@ -10,4 +15,4 @@ void free_listint(listint_t *head)
 		head = head->next;
 		free(tmp);
 	}
-}		
+}
