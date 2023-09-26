@@ -10,7 +10,6 @@
  * @str: srtring - malloc
  * @len: lenght of the string
  * @next: pointers to the next node
- * @description: singly linked list
  */
 
 typedef struct list_s
