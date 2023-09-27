@@ -1,5 +1,12 @@
 #include "lists.h"
 
+/**
+ * delete_nodeint_at_index - it delete the a node in the list
+ * @head: first parameter
+ * @index: second parameter
+ * Return: 1
+ */
+
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *tmp, *pv;
@@ -15,7 +22,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	{
 		*head = (*head)->next;
 	free(tmp);
-	return 1;
+	return (1);
 	}
 
 	for (i = 0; i < index && tmp != NULL; i++)
@@ -25,7 +32,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	}
 
 	if (tmp == NULL)
-		return -1;
+		return (-1);
 
 	pv->next = tmp->next;
 	free(tmp);
