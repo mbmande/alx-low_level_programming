@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	{
 		if (head >= 25)
 			head = head - 25;
-		else if (head > 10)
+		else if (head >= 10)
 			head = head - 10;
 		else if (head >= 5)
 			head = head - 5;
