@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * argstostr -  args concat
+ * argstostr - args concat
  * @ac: first parameter
  * @av: second parameter
  * Return: out
