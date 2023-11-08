@@ -3,7 +3,7 @@
 
 /**
  * array_iterator - it runs function
- * @arry: array
+ * @array: array
  * @size: size of it
  * @action: the function
  */
