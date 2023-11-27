@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * append_text_file - it appends text
+ * append_text_to_file - it appends text
  * @filename: the parameter
  * @text_content: parameter
  * Return: 1 if success
