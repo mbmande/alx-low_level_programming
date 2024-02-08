@@ -3,16 +3,15 @@
 /**
  * hash_table_delete - =======
  * @ht: ==========
- * 
- * 
+ *
+ *
  */
 
 void hash_table_delete(hash_table_t *ht)
 {
 	hash_table_t *head = ht;
-    unsigned long int o;
+	unsigned long int o;
 	hash_node_t *nd, *t;
-	
 
 	for (o = 0; o < ht->size; o++)
 	{
