@@ -9,3 +9,4 @@ int main(void)
 	printing();
 	return (EXIT_SUCCESS);
 }
+/* School */
