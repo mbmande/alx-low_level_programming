@@ -4,25 +4,28 @@
  * linear_search - searches for a value in an array of
  * integers using the Linear search algorithm
  *
- * @array: pointer to the first element of the array
- * @size: number of elements in the array
- * @value: value to search for
- * Return: index of the element if found, otherwise -1
+ * @array: input array
+ * @size: size of the array
+ * @value: value to search in
+ * Return: Always EXIT_SUCCESS
  */
+
 int linear_search(int *array, size_t size, int value)
 {
-    size_t i; /*Declare i outside of the for loop in C90*/
+	size_t x;
 
-    if (array == NULL) {
-        return -1;  /* Return -1 if array is NULL */
-    }
+	if (array == NULL)
+	{
+		return (-1);
+	}
 
-    for (i = 0; i < size; i++) {
-        printf("Value chelscked array[%lu] = [%d]\n", (unsigned long)i, array[i]);
-        if (array[i] == value) {
-            return i;  /*Return index if value is found*/ 
-        }
-    }
-
-    return -1;  /*Return -1 if value is not found*/ 
+	for (x = 0; x < size; x++)
+	{
+		printf("Value checked array[%li] = [%i]\n", x, array[x]);
+		if (array[x] == value)
+		{
+			return (x);
+		}
+	}
+	return (-1);
 }
